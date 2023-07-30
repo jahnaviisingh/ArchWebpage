@@ -1,0 +1,885 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="queries.css">
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@400;900&family=Cormorant+Garamond:ital,wght@1,700&family=Cormorant:wght@500&family=Dancing+Script:wght@400;500&family=Jost&family=Montserrat:wght@500&family=Open+Sans&family=Oswald:wght@200;300&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ysabeau+Infant&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <!-- <div class="hamburger-nav " id="hamburger-nav">
+        <ul class="hamlist">
+            <li>
+                <a href="#">Home</a>
+            </li>
+
+            <li>
+                <a href="#">Schedule</a>
+            </li>
+            <li>
+                <a href="#">Prices</a>
+            </li>
+            <li>
+                <a href="#">Shop</a>
+            </li>
+            <li>
+                <a href="#">Page</a>
+            </li>
+            <li>
+                <a href="#">Contact Us</a>
+            </li>
+        </ul>
+    </div> -->
+
+    <header id="header">
+        <div class="container header-clr">
+            <div class="logo">
+                <img src="logo.png" alt="Logo">
+            </div>
+            <div class="header-section">
+                <nav>
+                    <ul class="active" id="ham-nav">
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+
+                        <li>
+                            <a href="#">Schedule</a>
+                        </li>
+                        <li>
+                            <a href="#">Prices</a>
+                        </li>
+                        <li>
+                            <a href="#">Shop</a>
+                        </li>
+                        <li>
+                            <a href="#">Page</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact Us</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="nav-icons">
+                    <a href="#" class="search">
+                        <span class="material-symbols-outlined">
+                            search
+                        </span>
+                    </a>
+                    <a href="#" class="cart">
+                        <span class="material-symbols-outlined">
+                            shopping_cart
+                        </span>
+                    </a>
+                    <a href="#" id="hamburger">
+                        <span class="material-symbols-outlined" style="font-size: 24px;">
+                            menu
+                        </span>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </header>
+    <!-- <div class="accordian">
+        <button id="settings">
+            <span class=" material-symbols-outlined">
+                settings
+            </span>
+        </button>
+    </div> -->
+    <div id="settingsbox" class="settingsbox">
+        <button id="darkmodebtn">DARK MODE</button>
+        <button id="rtlbtn">RTL</button>
+        <button id="seamless">SEAMLESS</button>
+        <button id="fontbig-btn">A+</button>
+        <button id="fontsmall-btn">A-</button>
+        <button id="theme-btn">CHANGE THEME</button>
+
+
+
+    </div>
+    <section class="sec1 section" id="section1">
+        
+        <div class="carousel0 owl-carousel ">
+            <div class="sec1-img1"></div>
+            <div class="sec1-img2"></div>
+            <div class="sec1-img3"></div>
+
+        </div>
+
+        <div class="container">
+            <div class="sec1-content">
+                <h1>ARCHITECTS ON MISSION</h1>
+                <p class="sec1-subheading">Building Better Homes</p>
+                <p class="liner">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit vel est dolor molestias.
+                </p>
+                <button class="btn seemore">See More</button>
+
+            </div>
+        </div>
+    </section>
+    <section class="sec2 section">
+
+        <div class="overlay2"></div>
+        <div class="hehe">
+            <div class="sec2-content">
+                <div class="box">
+                    <a href="#" class="sec2-subhead">INNOVATIVE DESIGNS</a>
+                    <p>Showcasing your firm's commitment to pushing boundaries and delivering creative, out-of-the-box
+                        architectural solutions.</p>
+                    <div class="booknow-box">
+                        <a href="#" class="book-now">Book Now</a>
+                        <span class="move material-symbols-outlined" style="font-size: 16px; color: white;">
+                            arrow_forward_ios
+                        </span>
+                    </div>
+                </div>
+                <div class="box">
+                    <a href="#" class="sec2-subhead">DIVERSE PORTFOLIO</a>
+                    <p>Showcasing a variety of projects across different sectors, from residential and commercial to
+                        cultural spaces.</p>
+                    <div class="booknow-box">
+                        <a href="#" class="book-now">Book Now</a>
+                        <span class="move material-symbols-outlined" style="font-size: 16px;color: white">
+                            arrow_forward_ios
+                        </span>
+                    </div>
+                </div>
+                <div class="box">
+                    <a href="#" class="sec2-subhead">SUSTAINABLE PRACTICES</a>
+                    <p>Emphasizing your focus on environmentally friendly designs, energy efficiency, and sustainable
+                        construction materials.</p>
+                    <div class="booknow-box">
+                        <a href="#" class="book-now">Book Now</a>
+                        <span class="move material-symbols-outlined" style="font-size: 16px; color: white">
+                            arrow_forward_ios
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="sec3">
+        <div class="container">
+
+            <div class="sec3-content">
+                <h3 class="about-us">ABOUT US</h3>
+                <p class="para3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia at facilis dolore enim
+                    praesentium
+                    quos? Eaque temporibus magni consequuntur in aut animi at voluptate, ducimus assumenda voluptas ut
+                    laborum autem.</p>
+                <div class="sec3-features-container">
+                    <div class="feat">
+                        <span class="material-symbols-outlined">
+                            group
+                        </span>
+
+                        <h3>EXPERT TEAM</h3>
+                        <p>Introducing the talented architects, designers, and professionals who bring their expertise
+                            and passion to every project.</p>
+                    </div>
+                    <div class="feat">
+                        <span class="material-symbols-outlined">
+                            favorite
+                        </span>
+                        <h3>ATTENTION TO DETAIL</h3>
+                        <p>Emphasizing the meticulous approach in crafting every aspect of the design to perfection.</p>
+                    </div>
+                    <div class="feat">
+                        <span class="material-symbols-outlined">
+                            schedule
+                        </span>
+                        <h3>TIMELY DELIVERY</h3>
+                        <p>Promising a commitment to delivering projects on schedule and within the specified budget.
+                        </p>
+                    </div>
+                    <div class="feat">
+                        <span class="material-symbols-outlined">
+                            sentiment_satisfied
+                        </span>
+
+                        <h3>HOLISTIC</h3>
+                        <p>Expressing your dedication to listening to clients' visions and translating them into
+                            reality.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="sec4 ">
+
+        <div class="sec4-left">
+
+            <img src="https://images.unsplash.com/photo-1503485841041-739cca570294?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+                alt="">
+           
+        </div>
+
+        <div class="sec4-right">
+            <h2>SERVICES</h2>
+            <div class="services-box">
+                <div class="ser">
+                    <span class="material-symbols-outlined">
+                        cognition
+                    </span>
+                    <div class="ser-head">
+                        <h3>MASTER PLANNING</h3>
+                        <p>Developing long-term and strategic master plans for large-scale projects, including urban
+                            developments and campuses.</p>
+                    </div>
+                </div>
+                <div class="ser">
+                    <span class="material-symbols-outlined">
+                        view_in_ar
+                    </span>
+                    <div class="ser-head">
+                        <h3>3D VISUALIZATION</h3>
+                        <p>Providing realistic 3D renderings and virtual tours to help clients visualize the final
+                            design before construction.</p>
+                    </div>
+                </div>
+                <div class="ser">
+                    <span class="material-symbols-outlined">
+                        light
+                    </span>
+                    <div class="ser-head">
+                        <h3>LIGHTING DESIGN</h3>
+                        <p>Developing lighting schemes that enhance the aesthetics and functionality of spaces.</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+    </section>
+    <section class="sec5 section">
+        <div class="container">
+            <div class="sec5-content">
+                <h2>OUR DESIGNS</h2>
+                <div class="design-cards-cont owl-carousel carousel">
+                    <div class="designs-cards">
+                        <div class="des-img design1">
+
+                        </div>
+                        <div class="des-content">
+                            <a href="#">RESIDENTIAL DESIGNS</a>
+                            <p>Display a variety of residential projects, including single-family homes, apartments,
+                                townhouses, and luxury villas. </p>
+                            <div class="readmore-box">
+                                <a href="#" class="read-more">Read More</a>
+                                <span class=" move material-symbols-outlined" style="font-size: 10px;">
+                                    arrow_forward_ios
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="designs-cards">
+                        <div class="des-img design2">
+
+                        </div>
+                        <div class="des-content">
+                            <a href="#">INTERIOR DESIGNS</a>
+                            <p>Include images of beautifully designed interior spaces, showcasing your attention to
+                                detail, material selection, and space optimization.</p>
+                            <div class="readmore-box">
+                                <a href="#" class="read-more">Read More</a>
+                                <span class="move material-symbols-outlined" style="font-size: 10px;">
+                                    arrow_forward_ios
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="designs-cards">
+                        <div class="des-img design4">
+
+                        </div>
+                        <div class="des-content">
+                            <a href="#">OLD ARCHITECTURE</a>
+                            <p>Present architectural solutions for institutions like schools, universities, libraries,
+                                museums, and healthcare facilities. </p>
+                            <div class="readmore-box">
+                                <a href="#" class="read-more">Read More</a>
+                                <span class=" move material-symbols-outlined" style="font-size: 10px;">
+                                    arrow_forward_ios
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="designs-cards">
+                        <div class="des-img design5">
+
+                        </div>
+                        <div class="des-content">
+                            <a href="#">INSTITUTIONAL DESIGNS</a>
+                            <p>Present architectural solutions for institutions like schools, universities, libraries,
+                                museums, and healthcare facilities. </p>
+                            <div class="readmore-box">
+                                <a href="#" class="read-more">Read More</a>
+                                <span class=" move material-symbols-outlined flex" style="font-size: 10px;">
+                                    arrow_forward_ios
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="designs-cards">
+                        <div class="des-img design3">
+
+                        </div>
+                        <div class="des-content">
+                            <a href="#">INSTITUTIONAL DESIGNS</a>
+                            <p>Present architectural solutions for institutions like schools, universities, libraries,
+                                museums, and healthcare facilities. </p>
+                            <div class="readmore-box">
+                                <a href="#" class="read-more">Read More</a>
+                                <span class=" move material-symbols-outlined" style="font-size: 10px;">
+                                    arrow_forward_ios
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <section class="sec6 section">
+        <div class="overlay6"></div>
+        <div class="sec66">
+            <div class="cont">
+                <div class="sec6-icons-cont">
+                    <div class="icons">
+                        <span class="material-symbols-outlined">
+                            nest_clock_farsight_analog
+                        </span>
+                        <h3>1723</h3>
+                        <h4>WORKING HOURS</h4>
+                    </div>
+                    <div class="icons">
+                        <span class="material-symbols-outlined">
+                            mood
+                        </span>
+                        <h3>5000+</h3>
+                        <h4>HAPPY CLIENTS</h4>
+                    </div>
+                    <div class="icons">
+                        <span class="material-symbols-outlined">
+                            thumb_up
+                        </span>
+                        <h3>700</h3>
+                        <h4>SUCCESS STORIES</h4>
+                    </div>
+                    <div class="icons">
+                        <span class="material-symbols-outlined">
+                            location_city
+                        </span>
+                        <h3>4532</h3>
+                        <h4>PERFECT DESIGNS</h4>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <section class="sec7 section">
+        <div class="container">
+            <div class="sec7-content">
+                <h2>OUR TOP ARCHITECTS</h2>
+                <div class="architects-box owl-carousel carousel-arch">
+                    <div class="arch">
+                        <div class="arch-img " id="arch1">
+                        </div>
+                        <div class="arch-name">
+                            <a href="#">Emily Markle</a>
+
+                        </div>
+                    </div>
+                    <div class="arch">
+                        <div class="arch-img" id="arch2">
+
+                        </div>
+                        <div class="arch-name">
+                            <a href="#">Liam Payne</a>
+                        </div>
+                    </div>
+                    <div class="arch">
+                        <div class="arch-img" id="arch3">
+
+                        </div>
+                        <div class="arch-name">
+                            <a href="#">Zayn Malik</a>
+                        </div>
+                    </div>
+                    <div class="arch">
+                        <div class="arch-img" id="arch4">
+
+                        </div>
+                        <div class="arch-name">
+                            <a href="#">Tejas</a>
+                        </div>
+                    </div>
+                    <div class="arch">
+                        <div class="arch-img" id="arch5">
+
+                        </div>
+                        <div class="arch-name">
+                            <a href="#">Ayan Kapur</a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <section class="sec8 section">
+        <div class="sec88">
+            <div class="container">
+                <div class="sec8-content">
+                    <h2>FREE INITIAL CONSULTATION</h2>
+                    <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi, expedita.</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque dolore ipsa maxime aspernatur,
+                        possimus officiis odio quasi aliquid molestias eius ut consectetur dignissimos iure neque,
+                        quidem,
+                        eveniet animi sapiente quo.</p>
+                    <button class="btn">Learn More</button>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- <div class="overlay8"></div> -->
+    
+    </section>
+    <section class="sec9 section">
+        <div class="container">
+            <div class="sec9-content">
+                <div class="sec9-left">
+                    <h3>GOT QUESTIONS? WE WOULD BE HAPPY TO HELP!</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, quaerat?</p>
+                </div>
+        
+            </div>
+
+        </div>
+
+    </section>
+    <section class="sec10 section">
+
+
+        <div class="sec10-content">
+            <h2>OUR GALLERY</h2>
+            <div class="gallery carousel1 owl-carousel">
+                <div class="gal-img" id="gal1"></div>
+                <div class="gal-img" id="gal2"></div>
+                <div class="gal-img" id="gal3"></div>
+                <div class="gal-img" id="gal4"></div>
+                <div class="gal-img" id="gal1"></div>
+                <div class="gal-img" id="gal2"></div>
+                <div class="gal-img" id="gal3"></div>
+                <div class="gal-img" id="gal4"></div>
+
+                <!-- <div class="gal-img" id="gal4"></div>
+                    <div class="gal-img" id="gal4"></div>
+                    <div class="gal-img" id="gal4"></div> -->
+            </div>
+        </div>
+
+
+    </section>
+    <section class="sec11 section">
+        <!-- <div class="overlay11"></div> -->
+        <div class="sec111">
+            <div class="container">
+                <div class="sec11-content">
+
+
+
+                    <h2>TESTIMONIALS</h2>
+                    <div class="circle"></div>
+                    <h3>Gia Cooper</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto nisi non a maiores doloribus ullam
+                        quos? Nemo, ipsam neque esse sequi aliquam laboriosam nulla accusamus quasi expedita, quisquam
+                        dolorem quaerat.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="sec12 section">
+        <div class="container">
+            <div class="sec12-content">
+                <h2>POPULAR DESIGNS</h2>
+                <div class="popular-container owl-carousel carousel">
+                    <div class="pop">
+                        <div class="pop-img" id="pop1">
+
+                        </div>
+                        <!-- <a href="#">INSTITUTIONAL DESIGNS</a> -->
+
+                    </div>
+                    <div class="pop">
+                        <div class="pop-img" id="pop2">
+
+                        </div>
+                        <!-- <a href="#">VINTAGE MUSEUMS</a> -->
+                    </div>
+                    <div class="pop">
+                        <div class="pop-img" id="pop3">
+
+                        </div>
+                        <!-- <a href="#">MODERN ARCHITECTURE</a> -->
+                    </div>
+                    <div class="pop">
+                        <div class="pop-img" id="pop4">
+
+                        </div>
+                        <!-- <a href="#">MODERN HOUSES</a> -->
+                    </div>
+                </div>
+
+
+            </div>
+
+
+        </div>
+    </section>
+    <section class="sec13 section">
+        <div class="container">
+            <div class="form-container">
+                <h3>GET STARTED WITH YOUR DREAM PROJECT</h3>
+                <p>Fill out this form to reach us and ask your inqueries.</p>
+                <form>
+                    <input type="text" class="hide" id="name" placeholder="Name">
+                    <input type="text" id="mail" placeholder="E-mail"><br>
+                    <input type="tel" id="number" placeholder="Mobile Number">
+                    <input type="text"class="hide" id="project_size" placeholder="Project Size"><br>
+                    <input type="text" id="budget" placeholder="Budget">
+                    <input type="text"class="hide" id="timeline" placeholder="Timeline"><br>
+
+                    <input type="submit" value="Submit" class="submit">
+                </form>
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <section class="sec14 section">
+        <div class="container">
+            <div class="sec14-content">
+                <div class="sec14-left">
+                    <h3>DON'T KNOW WHICH DESIGN TO CHOOSE?</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam at sint expedita porro, molestias
+                        qui!</p>
+                    </div>
+
+            </div>
+
+        </div>
+    </section>
+    <section class="sec15 section">
+        <div class="container">
+            <div class="sec15-content">
+                <h2>UPCOMING DESIGNS</h2>
+                <div class="design-cards-cont owl-carousel carousel">
+                    <div class="designs-cards15">
+                        <div class="des-img pic1">
+
+                        </div>
+                        <div class="des-content">
+                            <a href="#">RESIDENTIAL DESIGNS</a>
+                            <p>Display a variety of residential projects, including single-family homes, apartments,
+                                townhouses, and luxury villas. </p>
+                            <div class="readmore-box">
+                                <a href="#" class="read-more">Read More</a>
+                                <span class=" move material-symbols-outlined" style="font-size: 16px;">
+                                    arrow_forward_ios
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="designs-cards">
+                        <div class="des-img pic2">
+
+                        </div>
+                        <div class="des-content">
+                            <a href="#">INTERIOR DESIGNS</a>
+                            <p>Include images of beautifully designed interior spaces, showcasing your attention to
+                                detail, material selection, and space optimization.</p>
+                            <div class="readmore-box">
+                                <a href="#" class="read-more">Read More</a>
+                                <span class="move material-symbols-outlined" style="font-size: 16px;">
+                                    arrow_forward_ios
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="designs-cards">
+                        <div class="des-img pic3">
+
+                        </div>
+                        <div class="des-content">
+                            <a href="#">INSTITUTIONAL DESIGNS</a>
+                            <p>Present architectural solutions for institutions like schools, universities, libraries,
+                                museums, and healthcare facilities. </p>
+                            <div class="readmore-box">
+                                <a href="#" class="read-more">Read More</a>
+                                <span class=" move material-symbols-outlined" style="font-size: 16px;">
+                                    arrow_forward_ios
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <section class="sec16 section">
+        <div class="map-left">
+           
+                
+                <form class="map-form">
+                    <h3>GET IN TOUCH</h3>
+                    <input type="text" id="name" placeholder="Your Name">
+                    <input type="text" id="mail" placeholder="Your E-mail">
+                    <textarea id="w3review" name="w3review" rows="3" cols="50" placeholder="Message">
+                    </textarea>
+                    <input type="submit" value="Submit">
+
+                </form>
+            
+
+        </div>
+        <div class="map-right">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3424.32436323902!2d75.77961747580495!3d30.877585878617396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391a81a559c8af71%3A0x51b85a10168add21!2sAlignSpaceArchitects!5e0!3m2!1sen!2sin!4v1690533080050!5m2!1sen!2sin"
+                width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+    </section>
+    <section class="footer section">
+        <div class="container">
+            <div class="footer-links-box" id="box1">
+                <h2>ABOUT US</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta asperiores similique sint delectus
+                    velit modi laboriosam quaerat eum corrupti sapiente!</p>
+                <div class="social-media-logos">
+                    <a>
+                        <i class="fa-brands fa-facebook-f fa-2xs"></i>
+                    </a>
+                    <a>
+                        <i class="fa-brands fa-twitter fa-2xs"></i>
+                    </a>
+                    <a>
+                        <i class="fa-brands fa-google-plus-g fa-2xs"></i>
+                    </a>
+                    <a>
+                        <i class="fa-brands fa-dribbble fa-2xs"></i>
+                    </a>
+                    <a>
+                        <i class="fa-brands fa-linkedin-in fa-2xs"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-links-box" id="box2">
+                <h2>RECENT DESIGNS</h2>
+                <div class="footer-col ">
+                    <div class="mini-post">
+                        <div class="small-img-cont img1 ">
+
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    </div>
+                    <div class="mini-post">
+                        <div class="small-img-cont img2">
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    </div>
+                    <div class="mini-post">
+                        <div class="small-img-cont img3">
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="footer-links-box " id="box3">
+                <h2>UPCOMING EVENTS</h2>
+                <div class="footer-col">
+                    <div class="mini-post">
+                        <div class="small-img-cont img4">
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    </div>
+                    <div class="mini-post">
+                        <div class="small-img-cont img5">
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    </div>
+                    <div class="mini-post">
+                        <div class="small-img-cont img6">
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="footer-links-box" id="box4">
+                <h2>CONTACT US</h2>
+                <div class="footer-col last-col">
+                    <div class="mini-post">
+                        <div class="logo-cont">
+                            <i class="fa-solid fa-phone fa-sm"></i>
+                        </div>
+                        <p>(1) +91-7973653262<br>(2) +91-9316913664</p>
+                    </div>
+                    <div class="mini-post">
+                        <div class="logo-cont">
+                            <i class="fa-brands fa-telegram fa-sm"></i>
+                        </div>
+                        <p>jahnavi.80583@lpu.co.in<br>jahnavisingh0611@gmail.com</p>
+                    </div>
+                    <div class="mini-post">
+                        <div class="logo-cont">
+                            <i class="fa-solid fa-location-dot fa-sm"></i>
+                        </div>
+                        <p>1208/1, Phase - 1, Dugri, Ludhiana.</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="copyright-footer">
+        <div class="container">
+            <p><i class="fa-regular fa-copyright fa-sm"></i> 2023 All Rights Reserved</p>
+
+        </div>
+
+    </section>
+    <script src="script.js"></script>
+    <script>
+        $('.carousel').owlCarousel({
+            loop: true,
+            nav: true,
+            items: 3,
+            dots: false,
+            margin: 30,
+
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 1
+                },
+                1000: {
+                    items: 3
+                }
+            }
+        });
+
+        $('.carousel1').owlCarousel({
+            loop: true,
+            nav: true,
+            items: 4,
+            dots: false,
+            autoplay: true,
+            autoplayTimeout: 3000,
+            autoplayHoverPause: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 2
+                },
+                1000: {
+                    items: 4
+                }
+            }
+        });
+        $('.carousel-arch').owlCarousel({
+            loop: true,
+            nav: true,
+            items: 3,
+            dots: false,
+            autoplay: true,
+            autoplayTimeout: 3000,
+            autoplayHoverPause: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600:{
+                    items: 1
+                },
+                1000: {
+                    items: 2
+                },
+                1200:{
+                    items: 3
+                }
+            }
+        });
+
+        $('.carousel0').owlCarousel({
+            loop: true,
+            nav: true,
+            items: 1,
+            dots: false,
+            autoplay: true,
+            autoplayTimeout: 3000,
+            autoplayHoverPause: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 1
+                },
+                1000: {
+                    items: 1
+                }
+            }
+        });
+    </script>
+
+</body>
+
+</html>
